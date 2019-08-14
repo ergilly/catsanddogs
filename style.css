@@ -1,0 +1,36 @@
+body {
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin: 50px;
+}
+
+.header {
+text-align: center;
+}
+.cat-header, .dog-header {
+
+}
+.cat-text, .dog-text {
+  font-family: "Arial", Gadget, sans-serif;
+}
+.cat-link, .dog-link {
+  display: flex;
+  font-family: "Arial", Gadget, sans-serif;
+  font-style: italic;
+}
+.cat-carousel, .dog-carousel {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(84, 230, 67, 0.6);
+  border: 10px ridge rgb(67, 148, 57);
+}
+.cat-pic, .dog-pic {
+  margin: 20px;
+  padding: 10px 0;
+  height: 180px;
+}
+.cat-pic:hover, .dog-pic:hover {
+  padding: 0;
+  height: 200px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
